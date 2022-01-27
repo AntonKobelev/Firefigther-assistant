@@ -1,0 +1,286 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>Калькулятор</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <meta charset="windows-1251">
+  </head>
+  <body>
+    <div class="container">
+      <form>
+        <div class="form-group row">
+          <div class="form-group row">
+            <label for="p1vkl" class="col-sm-2 col-form-label"
+              >P1 вкл.<sup>*</sup></label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p1vkl"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p1och" class="col-sm-2 col-form-label"
+              >P1 оч.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p1och"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p2vkl" class="col-sm-2 col-form-label"
+              >P2 вкл.<sup>*</sup></label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p2vkl"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p2och" class="col-sm-2 col-form-label"
+              >P2 оч.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p2och"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p3vkl" class="col-sm-2 col-form-label"
+              >P3 вкл.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p3vkl"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p3och" class="col-sm-2 col-form-label"
+              >P3 оч.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p3och"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p4vkl" class="col-sm-2 col-form-label"
+              >P4 вкл.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p4vkl"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p4och" class="col-sm-2 col-form-label"
+              >P4 оч.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p4och"
+            />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="p5vkl" class="col-sm-2 col-form-label"
+              >P5 вкл.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p5vkl"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="p5och" class="col-sm-2 col-form-label"
+              >P5 оч.</label
+            >
+            <div class="col-sm-2">
+              <input
+              type="text"
+              class="form-control"
+              id="p5och"
+            />
+            </div>
+          </div>
+          <div class="form-group row">
+
+          <label for="pminvkl" class="col-sm-2 col-form-label"
+            >Pmin вкл.<sup>*</sup></label
+          >
+          <div class="col-sm-2">
+            <input class="form-control" type="text" id="pminvkl" disabled>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="pminoch" class="col-sm-2 col-form-label"
+            >Pmin оч.</label
+          >
+          <div class="col-sm-2">
+            <input class="form-control" type="text" id="pminoch" disabled>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="tvozvr" class="col-sm-2 col-form-label"
+            >t. возд<sup>*</sup></label
+          >
+          <div class="col-sm-2">
+            <input class="form-control" type="text" id="tvozvr">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="workingofconditions" class="col-sm-2 col-form-label"
+            >Условия работы <sup>*</sup></label
+          >
+          <div class="col-sm-2">
+            <select class="form-select"  id="workingofconditions">
+              <option value="selected" selected>Выбрать</option>
+              <option value="2.5">2.5</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+
+        
+
+
+        <div class="form-group row">
+          <label for="tvkl" class="col-sm-2 col-form-label"
+            >T вкл.<sup>*</sup></label
+          >
+          <div class="col-sm-2">
+                <div class="col-xs-10">
+                  <input class="form-control" type="time" value="00:12" id="tvkl">
+                </div>
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label for="toch" class="col-sm-2 col-form-label"
+            >T оч.<sup>*</sup></label
+          >
+          <div class="col-sm-2">
+            <div class="col-xs-10">
+                <input class="form-control" type="time" value="00:15" id="toch">
+              </div>
+          </div>
+        </div>
+
+        
+        <div class="form-group row">
+            <label for="vb" class="col-sm-2 col-form-label"
+              >Vб<sup>*</sup></label
+            >
+            <div class="col-sm-2">
+              <input
+                type="text"
+                class="form-control"
+                id="vb"
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="qvodz" class="col-sm-2 col-form-label"
+              >Q возд<sup>*</sup></label
+            >
+            <div class="col-sm-2">
+              <input
+                type="text"
+                class="form-control"
+                id="qvodz"
+              />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="rustrab" class="col-sm-2 col-form-label"
+              >Руст. раб<sup>*</sup></label
+            >
+            <div class="col-sm-2">
+              <input
+                type="text"
+                class="form-control"
+                id="rustrab"
+              />
+            </div>
+          </div>
+
+
+          <div class="form-group row">
+            <label for="ksj" class="col-sm-2 col-form-label"
+              >К сж</label
+            >
+            <div class="col-sm-2">
+              <input
+                type="text"
+                class="form-control"
+                id="ksj"
+                disabled
+                value="0"
+              />
+            </div>
+          </div>
+
+         
+
+          <div class="form-group row">
+            <div class="offset-sm-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" id="submit">Посчитать</button>
+            </div>
+          </div>
+      </form>
+    </div>
+
+    <div class="container" id="results">
+      <p id="pmaxpad">P max. пад.: <span>0</span> кгс/см<sup>2</sup></p>
+      <p id="pvih">P вых.: <span>0</span> кгс/см<sup>2</sup></p>
+      <p id="twithsjatyivosduh">T: <span>0</span></p>
+      <p id="tvihwithsjatyivosduh">Tвых: <span>0</span></p>
+      <p id="tobjwithsjatyivosduh">Tобщ: <span>0</span></p>
+      <p id="tvozvrwithsjatyivosduh">Tвозвр: <span>0</span></p>
+      <p id="pkvihwithsjatyivosduh">Pк.вых.: <span>0</span> кгс/см<sup>2</sup></p>
+
+      <p id="trabwithsjatyivosduh">T.раб.: <span>0</span></p>
+
+
+      <p id="tkvihwithsjatyivosduh">Tк. вых.: <span>0</span></p>
+    </div>
+
+    <script src="js/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    
+  </body>
+</html>
